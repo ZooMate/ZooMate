@@ -10,9 +10,22 @@
 		57B162BE2DDEBFCA00A41B00 /* ZooMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		57B163042DDED0DC00A41B00 /* Exceptions for "ZooMate" folder in "ZooMate" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 57B162BD2DDEBFCA00A41B00 /* ZooMate */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		57B162C02DDEBFCA00A41B00 /* ZooMate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				57B163042DDED0DC00A41B00 /* Exceptions for "ZooMate" folder in "ZooMate" target */,
+			);
 			path = ZooMate;
 			sourceTree = "<group>";
 		};
@@ -254,6 +267,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZooMate/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZooMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +297,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZooMate/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZooMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
