@@ -15,8 +15,8 @@ struct Pet: Identifiable, Codable, Hashable {
     var photos: [URL]               // 반려동물 사진 리스트
     var species: Species            // 종 (고양이, 강아지 등)
     var gender: Gender              // 성별 (male, female)
-    var neutering: Bool             // 중성화 여부 (true/false)
-    var `public`: Bool              // 반려동물 프로필 공개 여부 (true/false)
+    var isNeutering: Bool             // 중성화 여부 (true/false)
+    var isPublic: Bool              // 반려동물 프로필 공개 여부 (true/false)
     var weight: Double              // 몸무게
     var tag: [String]               // 태그 목록 (예: ["활발함", "온순함"])
 }
