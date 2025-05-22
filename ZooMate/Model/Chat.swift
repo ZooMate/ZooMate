@@ -8,21 +8,21 @@
 import SwiftUI
 
 // MARK: - ChatRoom
-struct ChatRoom: Identifiable, Codable, Hashable {
-    let id: UUID
-    var senderId: UUID
-    var senderPetId: UUID
-    var receiverId: UUID
-    var receiverPetId: UUID
+struct ChatRoom: Codable {
+    let roomId: String
+    var senderId: String
+    var senderPetId: String
+    var receiverId: String
+    var receiverPetId: String
     var createdAt: Date
 }
 
 // MARK: - Message
-struct Message: Identifiable, Codable, Hashable {
-    let id: UUID
-    var chatId: UUID
-    var senderId: UUID
-    var senderPetId: UUID
+struct Message: Codable {
+    let msgId: String
+    var chatId: String
+    var senderId: String
+    var senderPetId: String
     var content: String
-    var createdAt: Date
+    var sendMsgAt: Date
 }
