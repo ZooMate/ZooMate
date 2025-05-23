@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MainHomeView: View {
     @State var textMenu: String = "전체지역"
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -17,6 +18,8 @@ struct MainHomeView: View {
                 
                 VStack {
                     CategoryTabView()
+                        .frame(height: 45)
+                    PetsListView()
                 }
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
