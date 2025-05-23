@@ -10,9 +10,7 @@ import SwiftUI
 // MARK: - ChatRoom
 struct ChatRoom: Codable {
     let roomId: String
-    var senderId: String
     var senderPetId: String
-    var receiverId: String
     var receiverPetId: String
     var createdAt: Date
 }
@@ -20,9 +18,7 @@ struct ChatRoom: Codable {
 // MARK: - Message
 struct Message: Codable {
     let msgId: String
-    var chatId: String
-    var senderId: String
-    var senderPetId: String
+    var roomId: String
     var content: String
     var sendMsgAt: Date
 }
